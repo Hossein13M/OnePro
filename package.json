@@ -1,0 +1,22 @@
+{
+  "name": "onepro",
+  "version": "1.0.0",
+  "description": "Using this for bootstrap 4 and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hossein13m/OnePro.git"
+  },
+  "author": "Hossein Mousavi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hossein13m/OnePro/issues"
+  },
+  "homepage": "https://github.com/hossein13m/OnePro#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
