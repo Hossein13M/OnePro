@@ -50,6 +50,63 @@ body {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+#header .top-header a {
+  padding: 0px 20px;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+}
+
+#header .top-header a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header .top-header a:hover:before {
+  content: '';
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 50%;
+}
+
+#header .top-header .left-side-top-header a {
+  padding: 0px 20px;
+  position: relative;
+  display: inline-block;
+  color: #ffffff;
+}
+
+#header .top-header .left-side-top-header a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header .top-header .left-side-top-header a:hover:before {
+  content: '';
+  border-bottom: 1px solid #ffffff;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 50%;
+}
+
+#header .top-header .center-side-top-header h3 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+#header .top-header .center-side-top-header span {
+  font-size: 14px;
+}
+
+#header .top-header .right-side-top-header a {
+  padding: 0px 20px;
 }
 /*# sourceMappingURL=index.css.map */

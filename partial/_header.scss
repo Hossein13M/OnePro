@@ -45,8 +45,58 @@ $next: #ffffff;
         position: absolute;
         display: flex;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 30px;
+        color: #ffffff;
+        a {
+            padding: 0px 20px;
+            position: relative;
+            display: inline-block;
+            color: #ffffff;
+            &:hover {
+                color: #ffffff;
+                text-decoration: none;
+                &:before {
+                    content: '';
+                    border-bottom: 1px solid #ffffff;
+                    position: absolute;
+                    width: 100%;
+                    right: 0;
+                    top: 50%;
+                }
+            }
+        }
+        .left-side-top-header {
+            a {
+                padding: 0px 20px;
+                position: relative;
+                display: inline-block;
+                color: #ffffff;
+                &:hover {
+                    color: #ffffff;
+                    text-decoration: none;
+                    &:before {
+                        content: '';
+                        border-bottom: 1px solid #ffffff;
+                        position: absolute;
+                        width: 100%;
+                        right: 0;
+                        top: 50%;
+                    }
+                }
+            }
+        }
+        .center-side-top-header {
+            h3 {
+                font-size: 25px;
+                font-weight: 900;
+                margin-bottom: 100px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .right-side-top-header a {
+            padding: 0px 20px;
+        }
     }
-    .left-side-top-header {}
-    .right-side-top-header {}
 }
