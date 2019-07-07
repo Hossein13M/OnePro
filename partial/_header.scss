@@ -45,8 +45,19 @@ $next: #ffffff;
         position: absolute;
         display: flex;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 40px;
         color: #ffffff;
+        .center-top-header {
+            h3 {
+                font-size: 36px;
+                margin-bottom: 2px !important;
+                margin-top: -10px;
+            }
+            span {
+                font-size: 13px;
+                font-weight: 200;
+            }
+        }
         a {
             padding: 0px 20px;
             position: relative;
@@ -64,39 +75,6 @@ $next: #ffffff;
                     top: 50%;
                 }
             }
-        }
-        .left-side-top-header {
-            a {
-                padding: 0px 20px;
-                position: relative;
-                display: inline-block;
-                color: #ffffff;
-                &:hover {
-                    color: #ffffff;
-                    text-decoration: none;
-                    &:before {
-                        content: '';
-                        border-bottom: 1px solid #ffffff;
-                        position: absolute;
-                        width: 100%;
-                        right: 0;
-                        top: 50%;
-                    }
-                }
-            }
-        }
-        .center-side-top-header {
-            h3 {
-                font-size: 25px;
-                font-weight: 900;
-                margin-bottom: 100px;
-            }
-            span {
-                font-size: 14px;
-            }
-        }
-        .right-side-top-header a {
-            padding: 0px 20px;
         }
     }
 }
