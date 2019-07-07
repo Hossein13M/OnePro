@@ -52,10 +52,12 @@ $next: #ffffff;
                     font-size: 36px;
                     margin-bottom: 2px !important;
                     margin-top: -10px;
+                    letter-spacing: 3px;
                 }
                 span {
                     font-size: 13px;
                     font-weight: 200;
+                    letter-spacing: 3px;
                 }
             }
             a {
@@ -71,6 +73,7 @@ $next: #ffffff;
                         border-bottom: 1px solid #ffffff;
                         position: absolute;
                         width: 100%;
+                        left: 0;
                         top: 50%;
                     }
                 }
@@ -89,8 +92,12 @@ $next: #ffffff;
                 p {
                     width: 100%;
                     text-align: center;
-                    margin-left: 0;
-                    margin-top: 0;
+                    padding-left: 35%;
+                    padding-right: 35%;
+                }
+                h1 {
+                    letter-spacing: 5px;
+                    font-size: 50px;
                 }
             }
             .text-main-header-button {

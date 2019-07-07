@@ -60,11 +60,13 @@ body {
   font-size: 36px;
   margin-bottom: 2px !important;
   margin-top: -10px;
+  letter-spacing: 3px;
 }
 
 #header .header .top-header .center-top-header span {
   font-size: 13px;
   font-weight: 200;
+  letter-spacing: 3px;
 }
 
 #header .header .top-header a {
@@ -84,6 +86,7 @@ body {
   border-bottom: 1px solid #ffffff;
   position: absolute;
   width: 100%;
+  left: 0;
   top: 50%;
 }
 
@@ -104,8 +107,13 @@ body {
 #header .header .main-header .text-main-header p {
   width: 100%;
   text-align: center;
-  margin-left: 0;
-  margin-top: 0;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+#header .header .main-header .text-main-header h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
 }
 
 #header .header .main-header .text-main-header-button {
