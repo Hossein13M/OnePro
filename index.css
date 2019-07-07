@@ -1,2 +1,50 @@
 body {
-  background-color: red; }
+  background-color: red !important;
+}
+
+#header {
+  position: relative !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto !important;
+}
+
+#header .header-slider {
+  position: absolute;
+}
+
+#header .header-slider-images img {
+  width: 100%;
+  height: 650px;
+}
+
+#header .next-prev-buttons {
+  width: 95%;
+  position: absolute;
+  text-align: center;
+  z-index: 10000;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 10px;
+  cursor: pointer;
+  top: 50%;
+}
+
+#header .next-prev-buttons .next {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  right: 0;
+}
+
+#header .next-prev-buttons .prev {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  left: 0;
+}
+
+.next-prev-buttons,
+.header-slider {
+  float: left;
+}
+/*# sourceMappingURL=index.css.map */

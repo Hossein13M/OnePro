@@ -1,0 +1,47 @@
+body {
+    background-color: red !important;
+}
+
+// note the variables for the header
+$header-height: 600px;
+$next: #ffffff;
+// note end of the variables
+#header {
+    position: relative !important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto !important;
+    .header-slider {
+        position: absolute;
+    }
+    .header-slider-images img {
+        width: 100%;
+        height: 650px;
+    }
+    .next-prev-buttons {
+        width: 95%;
+        position: absolute;
+        text-align: center;
+        z-index: 10000;
+        color: #ffffff;
+        font-size: 20px;
+        letter-spacing: 10px;
+        cursor: pointer;
+        top: 50%;
+        // left: 50%;
+        .next {
+            transform: rotate(90deg);
+            right: 0;
+        }
+        .prev {
+            transform: rotate(270deg);
+            left: 0;
+        }
+    }
+}
+
+.next-prev-buttons,
+.header-slider {
+    float: left;
+}

@@ -9,13 +9,37 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- note adding slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/slick/slick.min.js"></script>
 </head>
 
 <body>
     <!-- divStart start of header -->
 
     <header id="header">
+
+        <div class="header-slider container col-md-12 col-sm-12 col-xs-12">
+            <div class="next-prev-buttons clearfix">
+                <div class="prev float-left">
+                    <p>PREV</p>
+                </div>
+                <div class="next float-right">
+                    <p>NEXT</p>
+                </div>
+            </div>
+            <div class="header-slider-images row">
+                <div><img src="/images/header/slider.jpg" alt="images not available"></div>
+                <div><img src="/images/header/slider2.jpg" alt="images not available"></div>
+                <div><img src="/images/header/slider3.jpg" alt="images not available"></div>
+
+            </div>
+        </div>
         <div class="container-fluid top-header">
+
             <div class="left-side-top-header">
                 <a href="#" class="button text-uppercase btn-default">home</a>
                 <a href="#" class="button text-uppercase btn-default">pages</a>
@@ -43,9 +67,7 @@
             <div class="text-main-header">
                 <h1 class="text-uppercase">welcome to onepro</h1>
                 <p class="text-capitalize">the easiest way to build multiple web projects with only one diverse responsive and multi-purpose theme</p>
-                <a href="#" class="button text-uppercase btn-default">view features
-        <i class="right-side-arrow-main-header"></i>
-    </a>
+                <a href="#" class="button text-uppercase btn-default">view features<i class="right-side-arrow-main-header"></i></a>
             </div>
         </div>
     </header>
@@ -394,17 +416,35 @@
                         <div class="footer-tweet-icon"><i></i><span class="text-uppercase">01 day ago</span>
                         </div>
                     </div>
-                    <div class="second-tweet-footer">
-                            <div class="tweets-footer"><p>You need an image stock <b> it here: http://tf.net/567AW1</p>
-                            </div>
-                            <div class="footer-tweet-icon"><i></i><span class="text-uppercase">02 day ago</span>
-                            </div>
-                    </div>    
+                    <div class="first-tweet-footer">
+                        <div class="tweets-footer">
+                            <p>Looking for awesome Creative PSD Template? <b> Find it here: http://tf.net/OAWS890a</p>
+                        </div>
+                        <div class="footer-tweet-icon"><i></i><span class="text-uppercase">01 day ago</span>
+                        </div>
+                    </div>   
                 </div>
                 <!-- note the bellow div is for the footer-content -->
             </div>
     </section>
     <!-- divEnd footer -->
+    <!-- divStart -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.header-slider-images').slick({
+            prevArrow: $('.prev'),
+            nextArrow: $('.next')
+          });
+        });
+      </script>
+
+    
+
+
+
 
 </body>
 
