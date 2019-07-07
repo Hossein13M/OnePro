@@ -1,28 +1,29 @@
 body {
   background-color: red !important;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #header {
-  position: relative !important;
+  position: relative;
   width: auto;
   margin: 0;
   padding: 0;
-  height: auto !important;
 }
 
-#header .header-slider {
+#header .header {
+  height: 500px !important;
+  position: relative;
+}
+
+#header .header .header-slider {
   position: absolute;
 }
 
-#header .header-slider-images img {
-  width: 100%;
-  height: 650px;
-}
-
-#header .next-prev-buttons {
+#header .header .header-slider .next-prev-buttons {
   width: 95%;
   position: absolute;
-  text-align: center;
   z-index: 10000;
   color: #ffffff;
   font-size: 20px;
@@ -30,21 +31,22 @@ body {
   top: 50%;
 }
 
-#header .next-prev-buttons .next {
+#header .header .header-slider .next-prev-buttons .next {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   right: 0;
+  left: 10px;
   cursor: pointer;
 }
 
-#header .next-prev-buttons .prev {
+#header .header .header-slider .next-prev-buttons .prev {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
   left: 0;
   cursor: pointer;
 }
 
-#header .top-header {
+#header .header .top-header {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,35 +56,88 @@ body {
   color: #ffffff;
 }
 
-#header .top-header .center-top-header h3 {
+#header .header .top-header .center-top-header h3 {
   font-size: 36px;
   margin-bottom: 2px !important;
   margin-top: -10px;
 }
 
-#header .top-header .center-top-header span {
+#header .header .top-header .center-top-header span {
   font-size: 13px;
   font-weight: 200;
 }
 
-#header .top-header a {
+#header .header .top-header a {
   padding: 0px 20px;
   position: relative;
   display: inline-block;
   color: #ffffff;
 }
 
-#header .top-header a:hover {
+#header .header .top-header a:hover {
   color: #ffffff;
   text-decoration: none;
 }
 
-#header .top-header a:hover:before {
+#header .header .top-header a:hover:before {
   content: '';
   border-bottom: 1px solid #ffffff;
   position: absolute;
   width: 100%;
-  right: 0;
   top: 50%;
+}
+
+#header .header .main-header {
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+#header .header .main-header .text-main-header {
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+#header .header .main-header .text-main-header p {
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+#header .header .main-header .text-main-header-button {
+  margin-top: 50px;
+}
+
+#header .header .main-header .text-main-header-button a {
+  background: #ffffff;
+  color: #5c5b5b;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  border: 2px solid #5c5b5b;
+  padding: 20px 0;
+}
+
+#header .header .main-header .text-main-header-button a span {
+  border-right: 1px solid #5c5b5b;
+  padding: 20px 20px;
+}
+
+#header .header .main-header .text-main-header-button a i {
+  padding: 20px 20px;
+}
+
+#header .header .main-header .text-main-header-button a:hover {
+  color: #ffffff;
+  background: #5c5b5b;
+  border: 2px solid #ffffff;
+}
+
+#header .header .main-header .text-main-header-button a:hover .span-text-main-header {
+  border-right: 1px solid #fff;
 }
 /*# sourceMappingURL=index.css.map */
