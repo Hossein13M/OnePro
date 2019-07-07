@@ -8,7 +8,7 @@ $next: #ffffff;
 // note end of the variables
 #header {
     position: relative !important;
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 0;
     height: auto !important;
@@ -27,21 +27,26 @@ $next: #ffffff;
         color: #ffffff;
         font-size: 20px;
         letter-spacing: 10px;
-        cursor: pointer;
         top: 50%;
         // left: 50%;
         .next {
             transform: rotate(90deg);
             right: 0;
+            cursor: pointer;
         }
         .prev {
             transform: rotate(270deg);
             left: 0;
+            cursor: pointer;
         }
     }
-}
-
-.next-prev-buttons,
-.header-slider {
-    float: left;
+    // note now the slider and its buttons have been finished, let's go to the top-header
+    .top-header {
+        position: absolute;
+        display: flex;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .left-side-top-header {}
+    .right-side-top-header {}
 }
