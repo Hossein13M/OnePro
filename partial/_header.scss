@@ -2,17 +2,21 @@ body {
     background-color: red !important;
     position: relative;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 // note the variables for the header
 $header-height: 600px;
 $next: #ffffff;
+$one-more-font: 36px;
+$by-hossein-font: 13px;
 // note end of the variables
 #header {
     position: relative;
     width: auto;
     margin: 0;
     padding: 0;
+    min-height: 1020px;
     .header {
         height: 500px !important;
         position: relative;
@@ -49,13 +53,13 @@ $next: #ffffff;
             color: #ffffff;
             .center-top-header {
                 h3 {
-                    font-size: 36px;
+                    font-size: $one-more-font;
                     margin-bottom: 2px !important;
                     margin-top: -10px;
                     letter-spacing: 3px;
                 }
                 span {
-                    font-size: 13px;
+                    font-size: $by-hossein-font;
                     font-weight: 200;
                     letter-spacing: 3px;
                 }

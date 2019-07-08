@@ -3,6 +3,7 @@ body {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #header {
@@ -10,6 +11,7 @@ body {
   width: auto;
   margin: 0;
   padding: 0;
+  min-height: 1020px;
 }
 
 #header .header {
@@ -147,5 +149,49 @@ body {
 
 #header .header .main-header .text-main-header-button a:hover .span-text-main-header {
   border-right: 1px solid #fff;
+}
+
+#about {
+  position: relative;
+  padding-top: 100px;
+  color: #7c7c7c;
+  min-height: 700px;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about .about-brand-name {
+  margin-bottom: 50px;
+}
+
+#about .about-brand-name h4 {
+  font-size: 36px;
+  color: #000;
+}
+
+#about .about-brand-name p {
+  font-size: 13px;
+  color: #7c7c7c;
+}
+
+#about .about-text {
+  padding-right: 25%;
+  padding-left: 25%;
+}
+
+#about .about-skills-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#about .about-skills-logo h5 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=index.css.map */

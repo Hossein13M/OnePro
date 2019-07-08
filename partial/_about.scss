@@ -1,0 +1,47 @@
+// .the-line {
+//     position: absolute;
+//     transform: rotate(90deg);
+//     font-size: 64px;
+//     color: #fff;
+//     width: 50px;
+//     height: 3px;
+//     z-index: 9999;
+// }
+// fixMe the line needs to be fixed
+// note the variables
+$text-color: rgb(124, 124, 124);
+#about {
+    position: relative;
+    padding-top: 100px;
+    color: $text-color;
+    min-height: 700px;
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    .about-brand-name {
+        margin-bottom: 50px;
+        h4 {
+            font-size: $one-more-font;
+            color: #000;
+        }
+        p {
+            font-size: $by-hossein-font;
+            color: $text-color;
+        }
+    }
+    .about-text {
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+    .about-skills-logo {
+        display: flex;
+        width: 100%;
+        margin-top: 100px;
+        h5 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+}
