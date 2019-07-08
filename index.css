@@ -194,4 +194,32 @@ body {
   font-weight: 500;
   margin-top: 10px;
 }
+
+#latest-project {
+  min-height: 130px;
+  background-color: #cacaca;
+  color: #7c7c7c;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#latest-project .the-text {
+  margin-left: 15%;
+}
+
+#latest-project .the-buttons {
+  margin-left: 45%;
+}
+
+#latest-project .the-buttons a {
+  margin-left: 5px;
+}
+
+.the-text,
+.the-buttons {
+  float: left;
+}
 /*# sourceMappingURL=index.css.map */
