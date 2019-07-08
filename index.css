@@ -275,12 +275,29 @@ body {
 
 #logo-slider {
   position: relative;
+  position: relative;
   background-color: #fff;
   min-height: 450px;
   padding-top: 80px;
   text-align: center;
   padding-bottom: 80px;
   margin: 0;
+}
+
+#logo-slider .slider-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  font-size: 50px;
+  z-index: 10000;
+}
+
+#logo-slider .slider-arrow .slider-prev {
+  margin-left: 20%;
+}
+
+#logo-slider .slider-arrow .slider-next {
+  margin-right: 20%;
 }
 
 #logo-slider .logo-slick {

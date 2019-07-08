@@ -1,44 +1,39 @@
-#logo-slider {
-    position: relative;
-    background-color: #fff;
-    min-height: 450px;
-    padding-top: 80px;
-    text-align: center;
-    padding-bottom: 80px;
-    margin: 0;
-    .logo-slick {
-        display: flex;
+    #logo-slider {
         position: relative;
-        .logo-slider-content {
-            text-align: center;
-            img {
-                display: inline;
+        .slider-arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 42%;
+            font-size: 50px;
+            z-index: 10000;
+            .slider-prev {
+                margin-left: 20%;
             }
-            p {
-                margin-top: 30px;
-                padding-right: 20%;
-                padding-left: 20%;
-                color: $text-color;
+            .slider-next {
+                margin-right: 20%;
+            }
+        }
+        position: relative;
+        background-color: #fff;
+        min-height: 450px;
+        padding-top: 80px;
+        text-align: center;
+        padding-bottom: 80px;
+        margin: 0;
+        .logo-slick {
+            display: flex;
+            position: relative;
+            .logo-slider-content {
+                text-align: center;
+                img {
+                    display: inline;
+                }
+                p {
+                    margin-top: 30px;
+                    padding-right: 20%;
+                    padding-left: 20%;
+                    color: $text-color;
+                }
             }
         }
     }
-    // .slider-arrow {
-    //     color: red;
-    //     width: 95%;
-    //     z-index: 10000;
-    //     color: #ffffff;
-    //     font-size: 50px;
-    // .slider-next {
-    //     transform: rotate(90deg);
-    //     right: 0;
-    //     left: 10px;
-    //     cursor: pointer;
-    // }
-    // .slider-prev {
-    //     display: block;
-    //     left: 90%;
-    //     position: absolute;
-    //     top: 41%;
-    //     font-size: 50px;
-    // }
-}
