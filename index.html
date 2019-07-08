@@ -162,10 +162,27 @@
     <!-- divEnd project templates -->
     <!-- divStart logo slider -->
     <section id="logo-slider">
-        <div class="logo-slider container"><span>1992</span>
-            <img src="" alt="image not available">
-            <span>2019</span>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse repudiandae soluta velit rem maiores dicta consequatur nisi enim explicabo vitae odit error accusamus eligendi iusto, placeat itaque dolorum molestiae nulla?</p>
+        <div class="slider-arrow">
+            <div class="slider-prev float-left">
+                <i class="fal fa-chevron-right"></i>
+            </div>
+            <div class="slider-next float-right">
+                <i class="fal fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="logo-slick justify-content-center">
+            <div class="logo-slider-content container">
+                <img src="/images/logo-slider/1.jpg" alt="image not available">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse repudiandae soluta velit rem maiores dicta consequatur nisi enim explicabo vitae odit error accusamus eligendi iusto, placeat itaque dolorum molestiae nulla?</p>
+            </div>
+            <div class="logo-slider-content container">
+                <img src="/images/logo-slider/1.jpg" alt="image not available">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse repudiandae soluta velit rem maiores dicta consequatur nisi enim explicabo vitae odit error accusamus eligendi iusto, placeat itaque dolorum molestiae nulla?</p>
+            </div>
+            <div class="logo-slider-content container">
+                <img src="/images/logo-slider/1.jpg" alt="image not available">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse repudiandae soluta velit rem maiores dicta consequatur nisi enim explicabo vitae odit error accusamus eligendi iusto, placeat itaque dolorum molestiae nulla?</p>
+            </div>
         </div>
     </section>
     <!-- divEnd logo slider -->
@@ -461,6 +478,19 @@
           $('.header-slider-images').slick({
             prevArrow: $('.prev'),
             nextArrow: $('.next')
+          });
+        
+          $('.logo-slick').slick({
+            prevArrow: $('.slider-prev'),
+            nextArrow: $('.slider-next'),
+            centerMode:true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            cssEase: 'linear',
+            variableWidth: true,
+            variableHeight: true
           });
         });
       </script>

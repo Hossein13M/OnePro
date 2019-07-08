@@ -272,4 +272,36 @@ body {
 .left-side-proj-temp {
   float: left;
 }
+
+#logo-slider {
+  position: relative;
+  background-color: #fff;
+  min-height: 450px;
+  padding-top: 80px;
+  text-align: center;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+#logo-slider .logo-slick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#logo-slider .logo-slick .logo-slider-content {
+  text-align: center;
+}
+
+#logo-slider .logo-slick .logo-slider-content img {
+  display: inline;
+}
+
+#logo-slider .logo-slick .logo-slider-content p {
+  margin-top: 30px;
+  padding-right: 20%;
+  padding-left: 20%;
+  color: #7c7c7c;
+}
 /*# sourceMappingURL=index.css.map */
