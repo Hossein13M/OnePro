@@ -208,6 +208,7 @@ body {
 
 #latest-project .the-text {
   margin-left: 15%;
+  color: #000;
 }
 
 #latest-project .the-buttons {
@@ -215,11 +216,60 @@ body {
 }
 
 #latest-project .the-buttons a {
-  margin-left: 5px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #7c7c7c;
+}
+
+#latest-project .the-buttons a:hover {
+  border-top: 2px solid #7c7c7c;
+  border-bottom: 2px solid #7c7c7c;
+  padding: 10px 10px;
 }
 
 .the-text,
 .the-buttons {
+  float: left;
+}
+
+#project {
+  position: relative;
+  background-color: pink;
+  min-height: 800px;
+  width: 100%;
+}
+
+#project .left-side-proj-temp {
+  width: 50%;
+}
+
+#project .left-side-proj-temp img {
+  height: 800px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#project .right-side-proj-temp {
+  width: 50%;
+  right: 0;
+  height: 100%;
+}
+
+#project .right-side-proj-temp img {
+  width: 50%;
+  height: 400px;
+  float: left;
+}
+
+#project .right-side-proj-temp img:hover {
+  color: #59cbd3;
+  opacity: 0.80;
+  cursor: pointer;
+}
+
+.right-side-proj-temp,
+.left-side-proj-temp {
   float: left;
 }
 /*# sourceMappingURL=index.css.map */

@@ -7,11 +7,19 @@
     width: 100%;
     .the-text {
         margin-left: 15%;
+        color: #000;
     }
     .the-buttons {
         margin-left: 45%;
         a {
-            margin-left: 5px;
+            margin-left: 20px;
+            text-decoration: none;
+            color: $text-color;
+            &:hover {
+                border-top: 2px solid $text-color;
+                border-bottom: 2px solid $text-color;
+                padding: 10px 10px;
+            }
         }
     }
 }

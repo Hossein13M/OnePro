@@ -1,0 +1,35 @@
+#project {
+    position: relative;
+    background-color: pink;
+    min-height: 800px;
+    width: 100%;
+    .left-side-proj-temp {
+        width: 50%;
+        img {
+            height: 800px;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .right-side-proj-temp {
+        width: 50%;
+        right: 0;
+        height: 100%;
+        img {
+            width: 50%;
+            height: 400px;
+            float: left;
+            &:hover {
+                color: rgb(89, 203, 211);
+                opacity: 0.80;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.right-side-proj-temp,
+.left-side-proj-temp {
+    float: left;
+}
