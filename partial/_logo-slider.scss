@@ -1,16 +1,23 @@
     #logo-slider {
         position: relative;
         .slider-arrow {
-            cursor: pointer;
             position: absolute;
             top: 42%;
             font-size: 50px;
             z-index: 10000;
             .slider-prev {
                 margin-left: 20%;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(161, 161, 161);
+                }
             }
             .slider-next {
                 margin-right: 20%;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(161, 161, 161);
+                }
             }
         }
         position: relative;

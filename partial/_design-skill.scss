@@ -1,0 +1,20 @@
+#design-skill {
+    min-height: 1000px;
+    position: relative;
+    .design-skill-back-image {
+        position: relative;
+        background-image: url(/images/design-skills/background.jpg);
+        display: flex;
+    }
+}
+
+.design-skill-image {
+    position: relative;
+}
+
+.design-skill-image i {
+    top: 50%;
+    left: 12%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}

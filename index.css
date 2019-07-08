@@ -285,7 +285,6 @@ body {
 }
 
 #logo-slider .slider-arrow {
-  cursor: pointer;
   position: absolute;
   top: 42%;
   font-size: 50px;
@@ -294,10 +293,20 @@ body {
 
 #logo-slider .slider-arrow .slider-prev {
   margin-left: 20%;
+  cursor: pointer;
+}
+
+#logo-slider .slider-arrow .slider-prev:hover {
+  color: #a1a1a1;
 }
 
 #logo-slider .slider-arrow .slider-next {
   margin-right: 20%;
+  cursor: pointer;
+}
+
+#logo-slider .slider-arrow .slider-next:hover {
+  color: #a1a1a1;
 }
 
 #logo-slider .logo-slick {
@@ -320,5 +329,30 @@ body {
   padding-right: 20%;
   padding-left: 20%;
   color: #7c7c7c;
+}
+
+#design-skill {
+  min-height: 1000px;
+  position: relative;
+}
+
+#design-skill .design-skill-back-image {
+  position: relative;
+  background-image: url(/images/design-skills/background.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.design-skill-image {
+  position: relative;
+}
+
+.design-skill-image i {
+  top: 50%;
+  left: 12%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 /*# sourceMappingURL=index.css.map */
