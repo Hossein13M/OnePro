@@ -1,20 +1,49 @@
-#design-skill {
-    min-height: 1000px;
+.design-whole {
     position: relative;
-    .design-skill-back-image {
-        position: relative;
-        background-image: url(/images/design-skills/background.jpg);
-        display: flex;
+    min-height: 920px;
+    background: url(/images/design-skills/background.jpg) fixed;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 114px;
+    .left-design {
+        float: left;
+        margin-top: 65px;
+        .each-design {
+            // display: flex;
+            // float: left;
+            margin-bottom: 100px;
+            .image-and-icon {
+                position: relative;
+                // float: left;
+                i {
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    top: 50%;
+                    left: 8.5%;
+                }
+            }
+            .h3-text-design {
+                clear: right;
+            }
+            h3 {
+                letter-spacing: 3px;
+                font-size: 20px;
+                clear: right;
+            }
+            p {
+                color: $text-color;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+    }
+    .right-design img {
+        width: 100%;
+        margin-bottom: 0px;
     }
 }
 
-.design-skill-image {
-    position: relative;
-}
-
-.design-skill-image i {
-    top: 50%;
-    left: 12%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+.image-and-icon,
+.left-side-text {
+    float: left;
 }

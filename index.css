@@ -331,28 +331,73 @@ body {
   color: #7c7c7c;
 }
 
-#design-skill {
-  min-height: 1000px;
+.design-whole {
   position: relative;
-}
-
-#design-skill .design-skill-back-image {
-  position: relative;
-  background-image: url(/images/design-skills/background.jpg);
+  min-height: 920px;
+  background: url(/images/design-skills/background.jpg) fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 114px;
 }
 
-.design-skill-image {
+.design-whole .left-design {
+  float: left;
+  margin-top: 65px;
+}
+
+.design-whole .left-design .each-design {
+  margin-bottom: 100px;
+}
+
+.design-whole .left-design .each-design .image-and-icon {
   position: relative;
 }
 
-.design-skill-image i {
-  top: 50%;
-  left: 12%;
+.design-whole .left-design .each-design .image-and-icon i {
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  top: 50%;
+  left: 8.5%;
+}
+
+.design-whole .left-design .each-design .h3-text-design {
+  clear: right;
+}
+
+.design-whole .left-design .each-design h3 {
+  letter-spacing: 3px;
+  font-size: 20px;
+  clear: right;
+}
+
+.design-whole .left-design .each-design p {
+  color: #7c7c7c;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.design-whole .right-design img {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.image-and-icon,
+.left-side-text {
+  float: left;
+}
+
+#team-member {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+#team-member .team-members {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
