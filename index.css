@@ -392,12 +392,64 @@ body {
 }
 
 #team-member {
+  max-height: 1000px;
+  min-height: 600px;
   background-color: #fff;
-  text-align: center;
   position: relative;
 }
 
-#team-member .team-members {
-  width: 100%;
+#team-member .meet-our-team {
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#team-member .team-player-container {
+  margin-top: 30px;
+}
+
+#team-member .team-player-container .top-player {
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#team-member .team-player-container .top-player .flex-dastan {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+#team-member .team-player-container .top-player .text-top-player {
+  background-color: lightgray;
+  padding-top: 60px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin-right: 10px;
+}
+
+#team-member .team-player-container .top-player .text-top-player h5 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+#team-member .team-player-container .top-player .text-top-player p {
+  color: #7c7c7c;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+#team-member .team-player-container .top-player .images {
+  margin-right: 10px;
+}
+
+#team-member .team-player-container .top-player .images .images:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=index.css.map */
