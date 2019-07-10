@@ -1,0 +1,24 @@
+#clients {
+    background-color: rgb(184, 184, 184);
+    min-height: 400px;
+    .clients {
+        .love-client {
+            text-align: center;
+            padding-top: 50px;
+            font-weight: 900;
+        }
+    }
+    .clients-logo-slider {
+        margin-top: 100px;
+        text-align: center;
+        // display: inline-block;
+        width: 100%;
+        .image-client {
+            img {
+                display: inline;
+            }
+            // width: 70%;
+            // height: 70%;
+        }
+    }
+}

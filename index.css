@@ -673,4 +673,25 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
 }
+
+#clients {
+  background-color: #b8b8b8;
+  min-height: 400px;
+}
+
+#clients .clients .love-client {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 900;
+}
+
+#clients .clients-logo-slider {
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+#clients .clients-logo-slider .image-client img {
+  display: inline;
+}
 /*# sourceMappingURL=index.css.map */

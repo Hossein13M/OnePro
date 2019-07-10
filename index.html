@@ -495,7 +495,11 @@
                 <h4 class="text-uppercase">we love our clients</h4>
             </div>
             <div class="clients-logo-slider">
-                <!-- fixMe I need to use a carousel for this and then implement how I need to do this  -->
+                <div class="image-client"><img src="/images/client/1-1.png" alt=""></div>
+                <div class="image-client"><img src="/images/client/2-2.png" alt=""></div>
+                <div class="image-client"><img src="/images/client/3-3.png" alt=""></div>
+                <div class="image-client"><img src="/images/client/4-4.png" alt=""></div>
+                <div class="image-client"><img src="/images/client/5-5.png" alt=""></div>
             </div>
         </div>
     </section>
@@ -599,6 +603,19 @@
             cssEase: 'linear',
             variableWidth: true,
             variableHeight: true,
+          });
+          $('.clients-logo-slider').slick({
+            centerMode:true,
+            // cssEase: 'linear',
+            // variableWidth: true,
+            // variableHeight: true,
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            arrows : false,
+            // focusOnSelect: true
+            
+
           });
         });
       </script>
