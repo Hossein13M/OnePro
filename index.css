@@ -413,9 +413,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  cursor: pointer;
 }
 
 #team-member .team-player-container .top-player .flex-dastan {
@@ -430,6 +432,14 @@ body {
       -ms-flex: 2;
           flex: 2;
   margin-right: 10px;
+}
+
+#team-member .team-player-container .top-player .text-top-player:hover {
+  background-color: #cc1ccc;
+}
+
+#team-member .team-player-container .top-player .text-top-player:hover p {
+  color: #fff;
 }
 
 #team-member .team-player-container .top-player .text-top-player h5 {
@@ -447,9 +457,132 @@ body {
 
 #team-member .team-player-container .top-player .images {
   margin-right: 10px;
+  widows: 270px;
+  height: 270px;
+}
+
+#team-member .team-player-container .top-player .images:hover .hover-image {
+  opacity: 1;
+}
+
+#team-member .team-player-container .top-player .images .hover-image {
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  width: 24.5%;
+  text-align: center;
+  position: absolute;
+  background: rgba(31, 156, 228, 0.6);
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#team-member .team-player-container .top-player .images .hover-image .hover-social-icons {
+  padding-top: 30px;
+}
+
+#team-member .team-player-container .top-player .images .hover-image .hover-social-icons i {
+  padding-right: 10px;
+  color: #fff;
+}
+
+#team-member .team-player-container .top-player .images .hover-image .hover-social-icons i:hover {
+  color: black;
+  cursor: pointer;
 }
 
 #team-member .team-player-container .top-player .images .images:last-child {
   margin-right: 0;
+}
+
+#team-member .team-player-container .top-player .images:hover .hover-image {
+  opacity: 1;
+}
+
+#team-member .team-player-container .bottom-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 270px;
+  height: 270px;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image:hover .hover-image {
+  opacity: 1;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .hover-image {
+  opacity: 0;
+  background-size: cover;
+  text-align: center;
+  width: 24.5%;
+  top: 19px;
+  bottom: 48px;
+  width: 24.5%;
+  text-align: center;
+  position: absolute;
+  background: rgba(31, 156, 228, 0.6);
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons {
+  padding-top: 30px;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons i {
+  padding-right: 10px;
+  color: #fff;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons i:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .work-with-us {
+  background-color: #fff;
+  height: 270px;
+  width: 270px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding-top: 70px;
+  cursor: pointer;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .work-with-us:hover {
+  background-color: red;
+}
+
+#team-member .team-player-container .bottom-player .bottom-image .work-with-us p {
+  font-size: 19px;
+  padding-top: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 600;
+}
+
+.images,
+.hover-images {
+  width: 270px;
+  height: 270px;
+  background-size: cover;
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
