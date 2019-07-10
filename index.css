@@ -438,34 +438,38 @@ body {
   background-color: #cc1ccc;
 }
 
+#team-member .team-player-container .top-player .text-top-player:hover h5 {
+  color: #fff;
+}
+
 #team-member .team-player-container .top-player .text-top-player:hover p {
   color: #fff;
 }
 
-#team-member .team-player-container .top-player .text-top-player h5 {
+#team-member .team-player-container .top-player h5 {
   font-size: 25px;
   margin-bottom: 30px;
   text-transform: uppercase;
   padding-left: 50px;
 }
 
-#team-member .team-player-container .top-player .text-top-player p {
+#team-member .team-player-container .top-player p {
   color: #7c7c7c;
   font-size: 14px;
   padding-left: 50px;
 }
 
-#team-member .team-player-container .top-player .images {
+#team-member .team-player-container .images {
   margin-right: 10px;
   widows: 270px;
   height: 270px;
 }
 
-#team-member .team-player-container .top-player .images:hover .hover-image {
+#team-member .team-player-container .images:hover .hover-image {
   opacity: 1;
 }
 
-#team-member .team-player-container .top-player .images .hover-image {
+#team-member .team-player-container .images .hover-image {
   opacity: 0;
   top: 0;
   bottom: 0;
@@ -478,29 +482,29 @@ body {
   color: #fff;
 }
 
-#team-member .team-player-container .top-player .images .hover-image .hover-social-icons {
+#team-member .team-player-container .images .hover-image .hover-social-icons {
   padding-top: 30px;
 }
 
-#team-member .team-player-container .top-player .images .hover-image .hover-social-icons i {
+#team-member .team-player-container .images .hover-image .hover-social-icons i {
   padding-right: 10px;
   color: #fff;
 }
 
-#team-member .team-player-container .top-player .images .hover-image .hover-social-icons i:hover {
+#team-member .team-player-container .images .hover-image .hover-social-icons i:hover {
   color: black;
   cursor: pointer;
 }
 
-#team-member .team-player-container .top-player .images .images:last-child {
+#team-member .team-player-container .images .images:last-child {
   margin-right: 0;
 }
 
-#team-member .team-player-container .top-player .images:hover .hover-image {
+#team-member .team-player-container .images:hover .hover-image {
   opacity: 1;
 }
 
-#team-member .team-player-container .bottom-player {
+#team-member .bottom-player {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -512,7 +516,7 @@ body {
   position: relative;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image {
+#team-member .bottom-player .bottom-image {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -520,11 +524,11 @@ body {
   height: 270px;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image:hover .hover-image {
+#team-member .bottom-player .bottom-image:hover .hover-image {
   opacity: 1;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .hover-image {
+#team-member .bottom-player .bottom-image .hover-image {
   opacity: 0;
   background-size: cover;
   text-align: center;
@@ -540,21 +544,21 @@ body {
   color: #fff;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons {
+#team-member .bottom-player .bottom-image .hover-image .hover-social-icons {
   padding-top: 30px;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons i {
+#team-member .bottom-player .bottom-image .hover-image .hover-social-icons i {
   padding-right: 10px;
   color: #fff;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .hover-image .hover-social-icons i:hover {
+#team-member .bottom-player .bottom-image .hover-image .hover-social-icons i:hover {
   color: black;
   cursor: pointer;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .work-with-us {
+#team-member .bottom-player .bottom-image .work-with-us {
   background-color: #fff;
   height: 270px;
   width: 270px;
@@ -566,11 +570,11 @@ body {
   cursor: pointer;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .work-with-us:hover {
+#team-member .bottom-player .bottom-image .work-with-us:hover {
   background-color: red;
 }
 
-#team-member .team-player-container .bottom-player .bottom-image .work-with-us p {
+#team-member .bottom-player .bottom-image .work-with-us p {
   font-size: 19px;
   padding-top: 15px;
   padding-left: 20%;
@@ -578,11 +582,95 @@ body {
   font-weight: 600;
 }
 
-.images,
-.hover-images {
-  width: 270px;
-  height: 270px;
-  background-size: cover;
+.pricing {
+  min-height: 1000px;
+  background: url(/images/pricing/pricing.jpg) fixed;
+  position: relative;
+  color: #fff;
+}
+
+.pricing .pricing-top {
+  padding-top: 50px;
+  font-weight: 600;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing .pricing-top p {
+  margin-top: 30px;
+  padding-left: 27%;
+  padding-right: 27%;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.pricing .price-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin-top: 100px;
+  color: black;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing .price-table .pricing-table {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pricing .price-table .pricing-table ~ .pricing-table {
+  border-left: 1px solid #b4b4b4;
+}
+
+.pricing .price-table .pricing-table .top-table h4 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.pricing .price-table .pricing-table .top-table h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.pricing .price-table .pricing-table .top-table span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.pricing .price-table .pricing-table .top-table p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #585858;
+  margin-top: 10px;
+  padding-right: 70px;
+}
+
+.pricing .price-table .pricing-table .pricing-property .property {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricing .price-table .pricing-table .pricing-property .property i {
+  color: green;
+  margin-right: 10px;
+}
+
+.pricing .price-table .pricing-table .end-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=index.css.map */
