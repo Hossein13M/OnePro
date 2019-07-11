@@ -52,6 +52,12 @@
             height: 270px;
             &:hover .hover-image {
                 opacity: 1;
+                text-align: center;
+                P {
+                    color: #fff;
+                    text-align: center;
+                    padding-left: 0;
+                }
             }
             .hover-image {
                 opacity: 0;
@@ -60,7 +66,7 @@
                 width: 24.5%;
                 text-align: center;
                 position: absolute;
-                background: rgba(31, 156, 228, 0.6);
+                background: rgba(0, 33, 53, 0.6);
                 padding-top: 80px;
                 padding-bottom: 30px;
                 color: #fff;
@@ -96,6 +102,12 @@
             height: 270px;
             &:hover .hover-image {
                 opacity: 1;
+                text-align: center;
+                P {
+                    color: #fff;
+                    text-align: center;
+                    padding-left: 0;
+                }
             }
             .hover-image {
                 opacity: 0;
@@ -132,7 +144,7 @@
                 padding-top: 70px;
                 cursor: pointer;
                 &:hover {
-                    background-color: red;
+                    background-color: rgb(109, 199, 50);
                 }
                 p {
                     font-size: 19px;
