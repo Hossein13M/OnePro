@@ -1,0 +1,88 @@
+#contact {
+    background-color: #fff;
+    min-height: 700px;
+    position: relative;
+    text-align: center;
+    .contact {
+        .text-contact {
+            padding-top: 90px;
+            font-family: 'Montserrat', sans-serif;
+            padding-bottom: 70px;
+        }
+        .the-whole-inputs {
+            .inputs-of-contact {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 25px;
+                input {
+                    background-color: #f5f5f5;
+                    border-color: #d1d1d1;
+                    height: 45px;
+                    &:hover {
+                        background-color: #ffffff;
+                        border-color: #030303;
+                        transition: all 0.2s ease-in-out;
+                        outline: 0;
+                    }
+                    &:focus {
+                        background-color: #ffffff;
+                        border-color: rgb(0, 0, 0);
+                        outline: 0;
+                        box-shadow: none;
+                    }
+                }
+            }
+            .text-area-contact {
+                .contact-text-area {
+                    textarea {
+                        background-color: #f5f5f5;
+                        border-color: #d1d1d1;
+                        min-height: 100px;
+                        &:hover {
+                            background-color: #fff;
+                            border-color: #030303;
+                            transition: all 0.2s ease-in-out;
+                            outline: 0;
+                        }
+                        &:focus {
+                            background-color: #fff;
+                            border-color: #030303;
+                            outline: 0;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+        .send-message {
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+            padding-bottom: 60px;
+            a {
+                background: #ffffff;
+                color: rgb(92, 91, 91);
+                font-size: 20px;
+                letter-spacing: 3px;
+                text-decoration: none;
+                border: 2px solid rgb(92, 91, 91);
+                padding: 20px 0;
+                span {
+                    border-right: 1px solid rgb(92, 91, 91);
+                    padding: 20px 20px;
+                }
+                i {
+                    padding: 20px 20px;
+                }
+                &:hover {
+                    color: #ffffff;
+                    background: rgb(92, 91, 91);
+                    border: 2px solid #ffffff;
+                }
+                &:hover .span-text-main-header {
+                    border-right: 1px solid#fff;
+                }
+            }
+        }
+    }
+}
