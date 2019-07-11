@@ -1,0 +1,92 @@
+#footer {
+    .footer-background {
+        min-height: 500px;
+        position: relative;
+        &::before {
+            content: "";
+            background: url(/images/footer/footer.jpg);
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            filter: grayscale(100%)brightness(30%);
+        }
+        .footer-content {
+            position: relative;
+            color: #fff;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            .footer-details {
+                h6 {
+                    font-size: 20px;
+                    padding-bottom: 40px;
+                    letter-spacing: 3px;
+                }
+                p {
+                    line-height: 10px;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                }
+                .footer-icons {
+                    padding-top: 25px;
+                    i {
+                        margin-right: 9px;
+                    }
+                }
+            }
+            .footer-tweets {
+                text-align: right;
+                .twitter-widget {
+                    font-size: 20px;
+                    padding-bottom: 25px;
+                    letter-spacing: 3px;
+                }
+                .tweet-footer {
+                    // line-height: 10px;
+                    font-size: 13px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    .footer-tweet-icon {
+                        color: rgb(192, 192, 192);
+                        span {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                .second-dastan {
+                    padding-top: 30px;
+                }
+            }
+        }
+        .footer-copyright {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            color: rgb(230, 230, 230);
+            letter-spacing: 5px;
+            margin-top: 50px;
+            font-size: 20px;
+            hr {
+                background-color: rgb(175, 175, 175);
+                opacity: .5;
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                z-index: 100000000;
+                text-align: center;
+            }
+            .text-copyright-footer {
+                padding-top: 50px;
+                margin-bottom: 90px;
+                display: flex;
+                justify-content: center;
+                h5 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

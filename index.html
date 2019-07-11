@@ -539,40 +539,48 @@
                     <p>Phone 02: +00 (9) 123 3456 789</p>
                     <p>Fax: +00 (9) 643 6543 898</p>
                     <div class="footer-icons">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                        <i></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fas fa-rss"></i>
                     </div>
                 </div>
                 <!-- note the above is the left side of the footer -->
                 <div class="footer-logo col-md-4 col-sm-12 col-xs-12">
-                    <span>1992</span>
-                    <img src="" alt="image not available">
-                    <span>2019</span>
+                    <img src="/images/header/slide-logo.png" alt="image not available">
                 </div>
                 <div class="footer-tweets col-md-4 col-sm-12 col-xs-12">
                     <div class="twitter-widget text-uppercase">
                         <h6>twitter widget</h6>
                     </div>
-                    <div class="first-tweet-footer">
+                    <div class="tweet-footer">
                         <div class="tweets-footer">
-                            <p>Looking for awesome Creative PSD Template? <b> Find it here: http://tf.net/OAWS890a</p>
+                            <p>Looking for awesome Creative PSD Template? <br> Find it here: http://tf.net/OAWS890a</p>
                         </div>
-                        <div class="footer-tweet-icon"><i></i><span class="text-uppercase">01 day ago</span>
+                        <div class="footer-tweet-icon"><i class="fab fa-twitter"></i><span class="text-uppercase">01 day ago</span>
                         </div>
                     </div>
-                    <div class="first-tweet-footer">
+                    <div class="tweet-footer second-dastan">
                         <div class="tweets-footer">
-                            <p>Looking for awesome Creative PSD Template? <b> Find it here: http://tf.net/OAWS890a</p>
+                            <p>Looking for awesome Creative PSD Template? <br> Find it here: http://tf.net/OAWS890a</p>
                         </div>
-                        <div class="footer-tweet-icon"><i></i><span class="text-uppercase">01 day ago</span>
+                        <div class="footer-tweet-icon"><i class="fab fa-twitter"></i><span class="text-uppercase">01 day ago</span>
                         </div>
-                    </div>   
+                    </div>
                 </div>
                 <!-- note the bellow div is for the footer-content -->
+                <!-- fixMe I have not created the last secoiton of the footer -->
             </div>
+            <div class="row">
+                <div class="footer-copyright container-fluid">
+                    <hr>
+                    <div class="text-copyright-footer container">
+                        <h5 class="text-uppercase">made by hossein</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- divEnd footer -->
     <!-- divStart -->
@@ -580,36 +588,37 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-          $('.header-slider-images').slick({
-            prevArrow: $('.prev'),
-            nextArrow: $('.next')
-          });
-        
-          $('.logo-slick').slick({
-            prevArrow: $('.slider-prev'),
-            nextArrow: $('.slider-next'),
-            centerMode:true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            dots: false,
-            infinite: true,
-            cssEase: 'linear',
-            variableWidth: true,
-            variableHeight: true,
-          });
-          $('.clients-logo-slider').slick({
-            centerMode:true,
-            // cssEase: 'linear',
-            // variableWidth: true,
-            // variableHeight: true,
-            infinite: true,
-            dots: true,
-            slidesToShow: 3,
-            arrows : false,
-            // focusOnSelect: true
-          });
+        $(document).ready(function() {
+            $('.header-slider-images').slick({
+                prevArrow: $('.prev'),
+                nextArrow: $('.next')
+            });
+
+            $('.logo-slick').slick({
+                prevArrow: $('.slider-prev'),
+                nextArrow: $('.slider-next'),
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                infinite: true,
+                cssEase: 'linear',
+                variableWidth: true,
+                variableHeight: true,
+            });
+            $('.clients-logo-slider').slick({
+                centerMode: true,
+                // cssEase: 'linear',
+                // variableWidth: true,
+                // variableHeight: true,
+                infinite: true,
+                dots: true,
+                slidesToShow: 3,
+                arrows: false,
+                // focusOnSelect: true
+            });
         });
-      </script>
+    </script>
 </body>
+
 </html>

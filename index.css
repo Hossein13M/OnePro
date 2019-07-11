@@ -802,4 +802,121 @@ body {
 #contact .contact .send-message a:hover .span-text-main-header {
   border-right: 1px solid #fff;
 }
+
+#footer .footer-background {
+  min-height: 500px;
+  position: relative;
+}
+
+#footer .footer-background::before {
+  content: "";
+  background: url(/images/footer/footer.jpg);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-filter: grayscale(100%) brightness(30%);
+          filter: grayscale(100%) brightness(30%);
+}
+
+#footer .footer-background .footer-content {
+  position: relative;
+  color: #fff;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+#footer .footer-background .footer-content .footer-details h6 {
+  font-size: 20px;
+  padding-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+#footer .footer-background .footer-content .footer-details p {
+  line-height: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+#footer .footer-background .footer-content .footer-details .footer-icons {
+  padding-top: 25px;
+}
+
+#footer .footer-background .footer-content .footer-details .footer-icons i {
+  margin-right: 9px;
+}
+
+#footer .footer-background .footer-content .footer-tweets {
+  text-align: right;
+}
+
+#footer .footer-background .footer-content .footer-tweets .twitter-widget {
+  font-size: 20px;
+  padding-bottom: 25px;
+  letter-spacing: 3px;
+}
+
+#footer .footer-background .footer-content .footer-tweets .tweet-footer {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#footer .footer-background .footer-content .footer-tweets .tweet-footer .footer-tweet-icon {
+  color: silver;
+}
+
+#footer .footer-background .footer-content .footer-tweets .tweet-footer .footer-tweet-icon span {
+  padding-left: 10px;
+}
+
+#footer .footer-background .footer-content .footer-tweets .second-dastan {
+  padding-top: 30px;
+}
+
+#footer .footer-background .footer-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  color: #e6e6e6;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#footer .footer-background .footer-copyright hr {
+  background-color: #afafaf;
+  opacity: .5;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  z-index: 100000000;
+  text-align: center;
+}
+
+#footer .footer-background .footer-copyright .text-copyright-footer {
+  padding-top: 50px;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#footer .footer-background .footer-copyright .text-copyright-footer h5 {
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
