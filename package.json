@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/hossein13m/OnePro#readme",
   "dependencies": {
-    "node-sass": "^6.0.1"
   }
 }
